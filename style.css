@@ -16,6 +16,11 @@ body{
     padding: 15px 60px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition: all 300ms ease;
+}
+.btn-primary:hover{
+    background: #1ed760;
+    cursor: pointer;
 }
 .logo{
     height: 40px;
@@ -45,6 +50,11 @@ body{
 }
 #navbar .navbar-container ul li{
     padding: 0 20px;
+    transition: all 300ms ease;
+}
+#navbar .navbar-container ul li:hover{
+    color: #1DB954;
+    cursor: pointer;
 }
 #navbar .navbar-container ul li:nth-child(3){
     border-right: 1px solid white;
@@ -97,7 +107,13 @@ body{
     text-transform: uppercase;
 }
 #footer .footer-content .footer-menu .footer-menu-item{
+    font-size: 1rem;
     margin: 25px 0;
+    transition: all 300ms ease;
+}
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color: #1DB954;
+    cursor: pointer;
 }
 
 /* Footer Socials */
@@ -107,6 +123,12 @@ body{
 .socials i {
     margin: 0 20px;
     font-size: 1.4rem;
+    transition: all 300ms ease;
+
+}
+.socials i:hover{
+    color: #1DB954;
+    cursor: pointer;
 }
 /* Footer Infos */
 
@@ -127,12 +149,24 @@ body{
 }
 .footer-info .footer-info-items .footer-info-item{
     margin: 0 10px;
+    transition: all 300ms ease;
+}
+.footer-info .footer-info-items .footer-info-item:hover{
+    color: #1DB954;
+    cursor: pointer;
 }
 .footer-info .rights .country{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 10px;
+}
+.footer-info .rights .country p{
+    transition: all 300ms ease;
+}
+.footer-info .rights .country p:hover{
+    color: #1DB954 ;
+    cursor: pointer;
 }
 .footer-info .rights .country .brasil-flag{
     height: 20px;
