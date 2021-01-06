@@ -17,6 +17,10 @@ body{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.logo{
+    height: 40px;
+    width: auto;
+}
 /*  Navbar */
 #navbar{
     display: flex;
@@ -33,10 +37,6 @@ body{
     justify-content: space-between;
     width: 60%;
     padding: 20px 0;
-}
-#navbar .navbar-container .logo{
-    height: 40px;
-    width: auto;
 }
 #navbar .navbar-container ul{
     display: flex;
